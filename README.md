@@ -1,6 +1,5 @@
 # SPFx React Jest Demo
 
-## Description
 SPFx example running **React** and **Jest**.
     
 ### Jest Test
