@@ -2,8 +2,7 @@
 
 SPFx example running **React** and **Jest**.
     
-### Jest Test
-Execute tests.
+Execute tests
 ```bash
 npm test  
 npm run test:watch
