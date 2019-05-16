@@ -26,6 +26,7 @@ npm run test:watch
 ```javascript
 // tsconfig.json
 {
+  "extends": "./node_modules/@microsoft/rush-stack-compiler-3.3/includes/tsconfig-web.json",
   "compilerOptions": {
     "esModuleInterop": true,
     "types": [
