@@ -1,6 +1,6 @@
 # SPFx React Jest Demo
 
-SPFx example running **React** and **Jest**.
+SPFx 1.8.2 example running **React** and **Jest**.
     
 Execute tests
 ```bash
@@ -13,11 +13,10 @@ npm run test:watch
 ```javascript
 // package.json
 "devDependencies": {
-    "@microsoft/rush-stack-compiler-3.3": "^0.2.13",
-    "@types/jest": "^24.0.12",
-    "@types/enzyme": "^3.9.1",
-    "@voitanos/jest-preset-spfx-react16": "^1.1.0",
-    "jest": "^23.6.0",
+    "@microsoft/rush-stack-compiler-3.3": "^0.2.15",
+    "@voitanos/jest-preset-spfx-react16": "^1.2.0",
+    "inline-css": "^2.4.2",
+    "jest-trx-results-processor": "^0.1.0",
     "typescript": "3.3"
     ...
 }
@@ -29,11 +28,6 @@ npm run test:watch
   "extends": "./node_modules/@microsoft/rush-stack-compiler-3.3/includes/tsconfig-web.json",
   "compilerOptions": {
     "esModuleInterop": true,
-    "types": [
-      "es6-promise",
-      "webpack-env",
-      "jest"
-    ]
   }
 }
 ```

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aa6c18a8-6421-4343-a573-c805b9363374" name="dannys@PA18746 2019-06-04T08:20:16.890Z" runUser="dannys" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Jest test run" id="0f8d8bc9-b86e-4570-a7fd-781a62362f4c"/>
+  <Times creation="2019-06-04T08:20:16.890Z" queuing="2019-06-04T08:20:16.890Z" start="2019-06-04T08:20:16.890Z"/>
+  <ResultSummary outcome="Passed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0"/>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SpFxJest component / should exist" id="9d86767e-f094-4dcf-87a2-01d3983fc543">
+      <Execution id="aaff394a-3d27-4d66-9ce4-6e2f34104590"/>
+      <TestMethod codeBase="Jest_SpFxJest component / should exist" name="SpFxJest component / should exist" className="SpFxJest component"/>
+    </UnitTest>
+    <UnitTest name="SpFxJest component / should have description: &quot;Test description&quot;" id="c2e5c440-4b65-43f6-88ff-11037ed6b10f">
+      <Execution id="63f08f01-469a-4c9f-ad13-9845ff9ed883"/>
+      <TestMethod codeBase="Jest_SpFxJest component / should have description: &quot;Test description&quot;" name="SpFxJest component / should have description: &quot;Test description&quot;" className="SpFxJest component"/>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda"/>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9d86767e-f094-4dcf-87a2-01d3983fc543" executionId="aaff394a-3d27-4d66-9ce4-6e2f34104590" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="c2e5c440-4b65-43f6-88ff-11037ed6b10f" executionId="63f08f01-469a-4c9f-ad13-9845ff9ed883" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </TestEntries>
+  <Results>
+    <UnitTestResult testId="9d86767e-f094-4dcf-87a2-01d3983fc543" executionId="aaff394a-3d27-4d66-9ce4-6e2f34104590" testName="SpFxJest component / should exist" computerName="PA18746" duration="00:00:01.633" startTime="2019-06-04T08:20:18.551Z" endTime="2019-06-04T08:20:20.184Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult testId="c2e5c440-4b65-43f6-88ff-11037ed6b10f" executionId="63f08f01-469a-4c9f-ad13-9845ff9ed883" testName="SpFxJest component / should have description: &quot;Test description&quot;" computerName="PA18746" duration="00:00:01.633" startTime="2019-06-04T08:20:20.184Z" endTime="2019-06-04T08:20:21.817Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </Results>
+</TestRun>

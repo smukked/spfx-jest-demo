@@ -1,4 +1,10 @@
 {
   "preset": "@voitanos/jest-preset-spfx-react16",
-  "rootDir": "../src"
+  "testResultsProcessor": "<rootDir>/../config/Jest/jestTrxProcessor",
+  "coverageReporters": ["text", "cobertura", "html"],
+  "coverageDirectory": "<rootDir>/../Reports/coverage",
+  "rootDir": "../src",
+  "moduleNameMapper": {
+    "office-ui-fabric-react/lib/(.*)$": "office-ui-fabric-react/lib-commonjs/$1"
+  }
 }
