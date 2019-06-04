@@ -21,8 +21,7 @@
     ],
     "types": [
       "es6-promise",
-      "webpack-env",
-      "jest"
+      "webpack-env"
     ],
     "lib": [
       "es5",
