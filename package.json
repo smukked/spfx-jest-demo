@@ -50,7 +50,7 @@
     "@types/chai": "3.4.34",
     "@types/mocha": "2.2.38",
     "@voitanos/jest-preset-spfx-react16": "^1.2.0",
-    "ajv": "~5.2.2",
+    "ajv": "~6.12.3",
     "gulp": "~3.9.1",
     "inline-css": "^2.4.2",
     "jest": "^24.8.0",
